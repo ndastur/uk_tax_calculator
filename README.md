@@ -5,15 +5,19 @@ A Node.js module that provides simple tax calculations for income tax and nation
 ## Installation
 
 ```bash
-npm install my-tax-module
+npm install uk_tax_calc
 ```
 
 ## Example Use
 
 ```js
-const { income_tax } = require('./lib/income_tax');
+import { calculateIncomeTaxDetailed } from './lib/income_tax.js';
 
-// Calculate income tax for 2023/2024
-const incomeTaxAmount = income_tax.calculate(60000, '2023/2024');
-console.log('Income Tax 2023/24:', incomeTaxAmount);
+try {
+    const incomeTax = calculateIncomeTaxDetailed(30000, '2024/25');
+    console.log('Income Tax ' + year + ': ', incomeTax);
+}
+catch (error) {
+    console.error(error.message);  // Outputs: "Invalid income: Must be a positive number."
+}
 ```
