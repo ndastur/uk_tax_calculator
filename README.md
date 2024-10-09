@@ -11,7 +11,7 @@ npm install uk_tax_calc
 ## Example Use
 
 ```js
-import { calculateIncomeTaxDetailed } from './lib/income_tax.js';
+import { calculateIncomeTaxDetailed } from 'uk_tax_calc'
 
 try {
     const incomeTax = calculateIncomeTaxDetailed(30000, '2024/25');
