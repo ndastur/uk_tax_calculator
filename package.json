@@ -1,0 +1,16 @@
+{
+  "name": "uk_tax_calc",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Calculate UK Tax",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Neville Dastur",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3"
+  }
+}
