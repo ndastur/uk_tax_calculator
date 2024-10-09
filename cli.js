@@ -1,4 +1,4 @@
-import { calculateIncomeTax, calculateIncomeTaxDetailed, calculatePersonalAllowance } from './lib/income_tax.js';
+import { calculateIncomeTax, calculateIncomeTaxDetailed, calculatePersonalAllowance } from './index.js';
 
 // Calculate income tax for 2023/2024
 const incomes = [60000, 112000, 175000];
