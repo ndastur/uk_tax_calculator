@@ -1,4 +1,4 @@
-# My Tax Module
+# UK Tax Module
 
 A Node.js module that provides simple tax calculations for income tax and national insurance tax.
 
@@ -21,3 +21,8 @@ catch (error) {
     console.error(error.message);  // Outputs: "Invalid income: Must be a positive number."
 }
 ```
+
+## TODO
+ - add Scottish rates
+ - check the 2023 rates
+ - account for mid year changes to NI
